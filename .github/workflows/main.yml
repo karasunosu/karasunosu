@@ -19,11 +19,8 @@ jobs:
           token: ${{ secrets.PAT }}
           user: karasunosu
 
-          # ===== Base =====
           base: header, activity, repositories
 
-          # ===== Plugins bạn yêu cầu =====
           plugin_activity: yes
           plugin_languages: yes
           plugin_isocalendar: yes
-          plugin_streak: yes
